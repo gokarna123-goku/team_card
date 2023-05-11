@@ -32,7 +32,7 @@ body{
     transition-duration: .5s;
     cursor: pointer;
 }
-.profileDiv {
+.front_section {
     z-index: 2;
     width: 100%;
     height: 100%;
@@ -44,11 +44,11 @@ body{
     background-size: cover;
     transition-duration: .5s;
 }
-.card:hover .profileDiv {
+.card:hover .front_section {
     transform: translateX(-25%) translateY(-20%);
     transition-duration: .5s;
 }
-.infoDiv {
+.back_section {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -58,7 +58,7 @@ body{
     background-color: aliceblue;
     z-index: 1;
 }
-.nameDiv {
+.team_info {
     width: 75%;
     height: 100%;
     display: flex;
@@ -69,14 +69,14 @@ body{
     font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
     gap: 2px;
 } 
-.name {
+.fullname {
     margin: 0;
     padding: 0;
     font-size: 1.5rem;
     font-weight: 600;
     color: #1d1d1d;
 }
-.role {
+.position {
     margin: 0;
     padding: 0;
     font-size: 1.1rem;
@@ -85,19 +85,30 @@ body{
     margin-bottom: 5px;
     margin-bottom: 1.2rem;
 }
-.socialDiv {
-    width: 25%;
+.social_links {
+    width: 15%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: rgb(14, 14, 14);
-    gap: 25px;
+    gap: 2.5rem;
 }
-.infoDiv a {
+.social_links a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #1d1d1d;
+    color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.0rem;
+}
+/* .back_section a {
     width: 50%;
-}
+} */
 .socials {
     width: 100%;
     fill: rgb(14, 14, 14);
