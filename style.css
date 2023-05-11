@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border-radius: 4px;
 }
 
 a{
@@ -16,21 +17,22 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 2.5rem;
     background: #1d1d1d;
 }
+
 .cardContainer {
     width: 400px;
     height: 460px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255, 0.7);
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     transition-duration: .5s;
     cursor: pointer;
-  }
-  
-  .profileDiv {
+}
+.profileDiv {
     z-index: 2;
     width: 100%;
     height: 100%;
@@ -38,7 +40,6 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background-color: rgb(57, 57, 57); */
     background: url("https://cdn.pixabay.com/photo/2023/04/14/21/38/wallpaper-7926098_640.jpg") no-repeat;
     background-size: cover;
     transition-duration: .5s;
@@ -46,14 +47,12 @@ body{
     font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 16px;
-  }
-  
-  .cardContainer:hover .profileDiv {
+}
+.cardContainer:hover .profileDiv {
     transform: translateX(-25%) translateY(-20%);
     transition-duration: .5s;
-  }
-  
-  .infoDiv {
+}
+.infoDiv {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -62,9 +61,8 @@ body{
     justify-content: center;
     background-color: aliceblue;
     z-index: 1;
-  }
-  
-  .nameDiv {
+}
+.nameDiv {
     width: 75%;
     height: 100%;
     display: flex;
@@ -74,26 +72,23 @@ body{
     background-color: aliceblue;
     font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
     gap: 2px;
-  }
-  
-  .name {
+} 
+.name {
     margin: 0;
     padding: 0;
     font-size: 16px;
     font-weight: 500;
     color: black;
-  }
-  
-  .role {
+}
+.role {
     margin: 0;
     padding: 0;
     font-size: 13px;
     font-weight: 400;
     color: rgb(48, 48, 48);
     margin-bottom: 5px;
-  }
-  
-  .socialDiv {
+}
+.socialDiv {
     width: 25%;
     height: 100%;
     display: flex;
@@ -102,16 +97,14 @@ body{
     justify-content: center;
     color: rgb(14, 14, 14);
     gap: 25px;
-  }
-  
-  .infoDiv a {
+}
+.infoDiv a {
     width: 50%;
-  }
-  
-  .socials {
+}
+.socials {
     width: 100%;
     fill: rgb(14, 14, 14);
-  }
+}
   
 
 
