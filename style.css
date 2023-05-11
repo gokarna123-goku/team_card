@@ -100,13 +100,22 @@ body{
     height: 45px;
     border-radius: 50%;
     /* background: #1d1d1d; */
-    background: linear-gradient(45deg, rgb(19, 227, 227), rgb(227, 19, 227));
-    border: 2px solid #707070;
+    /* background: linear-gradient(45deg, rgb(19, 227, 227), rgb(227, 19, 227)); */
+    /* background: linear-gradient(45deg, rgb(6, 99, 99), rgb(102, 3, 102)); */
+    background: linear-gradient(45deg, rgb(7, 152, 152), rgb(156, 6, 156));
+    border: 2px solid #08d8e7;
     color: #f9f9f9;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.7rem;
+    transition: all 0.5s ease-out;
+}
+.social_links a:hover{
+    transform: scale(1.2);
+    background: linear-gradient(45deg, rgb(19, 227, 227), rgb(227, 19, 227));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
   
 
