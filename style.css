@@ -15,8 +15,8 @@ body{
     background: #1d1d1d;
 }
 .cardContainer {
-    width: 200px;
-    height: 250px;
+    width: 400px;
+    height: 460px;
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
@@ -34,7 +34,9 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(24, 24, 24);
+    /* background-color: rgb(57, 57, 57); */
+    background: url("https://cdn.pixabay.com/photo/2023/04/14/21/38/wallpaper-7926098_640.jpg") no-repeat;
+    background-size: cover;
     transition-duration: .5s;
     color: rgb(155, 155, 155);
     font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
