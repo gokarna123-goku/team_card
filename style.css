@@ -21,7 +21,7 @@ body{
     background: #1d1d1d;
 }
 
-.cardContainer {
+.card {
     width: 400px;
     height: 460px;
     background-color: rgb(255, 255, 255, 0.7);
@@ -44,7 +44,7 @@ body{
     background-size: cover;
     transition-duration: .5s;
 }
-.cardContainer:hover .profileDiv {
+.card:hover .profileDiv {
     transform: translateX(-25%) translateY(-20%);
     transition-duration: .5s;
 }
@@ -72,14 +72,14 @@ body{
 .name {
     margin: 0;
     padding: 0;
-    font-size: 16px;
-    font-weight: 500;
-    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1d1d1d;
 }
 .role {
     margin: 0;
     padding: 0;
-    font-size: 13px;
+    font-size: 1.1rem;
     font-weight: 400;
     color: rgb(48, 48, 48);
     margin-bottom: 5px;
