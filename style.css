@@ -106,7 +106,12 @@ a{
     font-size: 1.7rem;
     transition: all 0.5s ease-out;
 }
-  
+.social_links a:hover{
+    transform: scale(1.2);
+    background: linear-gradient(45deg, rgb(7, 152, 152), rgb(156, 6, 156));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 
 /* End */
