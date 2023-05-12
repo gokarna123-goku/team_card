@@ -5,117 +5,14 @@
     padding: 0;
     box-sizing: border-box;
     border-radius: 4px;
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, 
+    Segoe UI, Roboto, Helvetica, Arial, sans-serif;
 }
 
 a{
     text-decoration: none;
 }
 
-body{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2.5rem;
-    background: #1d1d1d;
-}
-
-.card {
-    width: 400px;
-    height: 460px;
-    background-color: rgb(255, 255, 255, 0.7);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    transition-duration: .5s;
-    cursor: pointer;
-}
-.front_section {
-    z-index: 2;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: url("https://cdn.pixabay.com/photo/2023/04/14/21/38/wallpaper-7926098_640.jpg") no-repeat;
-    background-size: cover;
-    transition-duration: .5s;
-}
-.card:hover .front_section {
-    transform: translateX(-25%) translateY(-20%);
-    transition-duration: .5s;
-}
-.back_section {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: aliceblue;
-    z-index: 1;
-}
-.team_info {
-    width: 75%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    background: inherit;
-    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-    gap: 0.2rem;
-} 
-.fullname {
-    margin: 0;
-    padding: 0;
-    font-size: 1.5rem;
-    font-weight: bolder;
-    color: #1d1d1d;
-}
-.position {
-    margin: 0;
-    padding: 0;
-    font-size: 1.1rem;
-    font-weight: 400;
-    color: rgb(48, 48, 48);
-    margin-bottom: 5px;
-    margin-bottom: 1.0rem;
-}
-.social_links {
-    width: 15%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2.5rem;
-}
-.social_links a{
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    /* background: #1d1d1d; */
-    /* background: linear-gradient(45deg, rgb(19, 227, 227), rgb(227, 19, 227)); */
-    /* background: linear-gradient(45deg, rgb(6, 99, 99), rgb(102, 3, 102)); */
-    background: linear-gradient(45deg, rgb(7, 152, 152), rgb(156, 6, 156));
-    border: 2px solid #08d8e7;
-    color: #f9f9f9;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.7rem;
-    transition: all 0.5s ease-out;
-}
-.social_links a:hover{
-    transform: scale(1.2);
-    background: linear-gradient(45deg, rgb(19, 227, 227), rgb(227, 19, 227));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
   
 
 
