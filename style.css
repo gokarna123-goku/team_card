@@ -59,6 +59,16 @@ a{
     background: aliceblue;
     z-index: 1;
 }
+.team_info{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    background: inherit;
+    gap: 0.2rem;
+}
   
 
 
