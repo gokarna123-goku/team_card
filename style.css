@@ -76,6 +76,14 @@ a{
     font-weight: bolder;
     color: #1d1d1d;
 }
+.position{
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgb(48, 48, 48);
+    margin-bottom: 1rem;
+}
   
 
 
