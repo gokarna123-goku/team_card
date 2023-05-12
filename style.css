@@ -20,6 +20,44 @@ a{
     justify-content: center;
     gap: 2.5rem;
     background: #1d1d1d;
+    border-radius: 0;
+}
+.card{
+    width: 400px;
+    height: 460px;
+    background: rgb(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.front_section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("https://cdn.pixabay.com/photo/2023/04/14/21/38/wallpaper-7926098_960_720.jpg") no-repeat;
+    background-size: cover;
+    transition: 0.5s ease-out;
+    z-index: 2;
+}
+.card:hover .front_section{
+    transform: translateX(-25%) translateY(-20%);
+    transition-duration: 0.5s;
+}
+.back_section{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: aliceblue;
+    z-index: 1;
 }
   
 
