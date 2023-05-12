@@ -84,6 +84,15 @@ a{
     color: rgb(48, 48, 48);
     margin-bottom: 1rem;
 }
+.social_links{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.5rem;
+}
   
 
 
